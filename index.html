@@ -13,76 +13,77 @@
             top: 70px;
             width: 300px;
             background: white;
-            border: 1px solid #ddd;
+            border: 1px solid #dddddd;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             display: none; /* Initially hidden */
         }
     </style>
   </head>
-    <!-- INICIO BARRA DE NAVEGACION-->
 
-  <header class="encabezado">
-    <div id="barra_navegacion">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="http://127.0.0.1:3000/index.html?#"><img src="img/pokeprotcgimg.png" alt="PokeProTCG" width="200" height="50"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" target="_blank" href="https://limitlesstcg.com/decks" href="#">Decks Competitivos</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Expansiones
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/twilight-masquerade/" href="#">Twilight Masquerade</a></li>
-                  <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/temporal-forces/" href="#">Temporal Forces</a></li>
-                  <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/paldean-fates/" href="#">Paldean Fates</a></li>
-                  <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/paradox-rift/" href="#">Paradox Rift</a></li>
-                  <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/151/" href="#">151</a></li>
-                  <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/obsidian-flames/" href="#">Obsidian Flames</a></li>
-                  <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/paldea-evolved/" href="#">Paldea Evolved</a></li>
-                  <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/scarlet-violet/" href="#">Scarlet & Violet</a></li>
-                  <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/crown-zenith/" href="#">Crown Zenith</a></li>
-                  <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/silver-tempest/" href="#">Silver Tempest</a></li>
-                  <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/lost-origin/" href="#">Lost Origin</a></li>
-                  <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/tcg-go/" href="#">Pokémon GO</a></li>
-                  <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/astral-radiance/" href="#">Astral Radiance</a></li>
-                  <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/brilliant-stars/" href="#">Brilliant Stars</a></li>
-                </ul>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="Búsqueda" placeholder="Búsqueda" aria-label="Búsqueda">
-              <button class="btn btn-outline-success" type="submit">Búscar</button>
-            </form>
-            <button class="btn btn-outline-primary" type="button" id="cart-button">
-              Carrito <span id="cart-count" class="badge bg-secondary">0</span>
-            </button>
-          </div>
+<body>
+        <!-- INICIO BARRA DE NAVEGACION-->
+<header class="encabezado">
+        <div id="barra_navegacion">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="http://127.0.0.1:3000/index.html?#">
+                        <img src="img/pokeprotcgimg.png" alt="PokeProTCG" width="200" height="50">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank" href="https://limitlesstcg.com/decks">Decks Competitivos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Expansiones
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/twilight-masquerade/">Twilight Masquerade</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/temporal-forces/">Temporal Forces</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/paldean-fates/">Paldean Fates</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/paradox-rift/">Paradox Rift</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/151/">151</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/obsidian-flames/">Obsidian Flames</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/paldea-evolved/">Paldea Evolved</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/scarlet-violet/">Scarlet & Violet</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/crown-zenith/">Crown Zenith</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/silver-tempest/">Silver Tempest</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/lost-origin/">Lost Origin</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/tcg-go/">Pokémon GO</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/astral-radiance/">Astral Radiance</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="https://tcg.pokemon.com/en-us/expansions/brilliant-stars/">Brilliant Stars</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Búsqueda">
+                            <button class="btn btn-outline-success" type="submit" style="color: #dddddd; background-color:rgb(230, 52, 52); border-color: #dddddd;">Buscar</button>
+                        </form>
+                        <button class="btn btn-outline-primary" type="button" id="cart-button" style="color: #dddddd; background-color:rgb(230, 52, 52); border-color: #dddddd;">
+                            Carrito <span id="cart-count" class="badge bg-secondary">0</span>
+                        </button>
+                    </div>
+                </div>
+            </nav>
         </div>
-      </nav>
-</div>
 </header>
 <!-- FIN BARRA DE NAVEGACION-->  
-<body>
-    
-
 
 <!-- INICIO PRODUCTOS EN VENTA-->
     <div class="container mt-5">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4" style="padding-bottom: 40px;">
           <div class="card">
               <img src="img/etb twilight masquerade.jpg" class="card-img-top" alt="ETB Twilight Masquerade">
               <div class="card-body">
                 <h5 class="card-title">$49.990</h5>
-                <p class="card-text">ETB Twilight Masquerade - 11 sobres de la edición Twilight Masquerade, 1 carta promocional, contadores de daño, 65 fundas para cartas.</p>
-                <button class="btn btn-primary add-to-cart" data-name="ETB Twilight Masquerade" data-price="49990">Agregar al carro</button>
+                <p class="card-text">ETB Twilight Masquerade - 11 sobres de la edición Twilight Masquerade, 2 cartas promocionales, contadores de daño, 65 fundas para cartas.</p>
+                <button class="btn btn-primary add-to-cart" data-name="ETB Twilight Masquerade" data-price="49990"style="color: #dddddd; background-color:rgb(230, 52, 52); border-color: #dddddd;">Agregar al carro</button>
               </div>
             </div>
         </div>
@@ -91,8 +92,8 @@
               <img src="img/etbtemporal.jpg" class="card-img-top" alt="ETB Temporal Forces">
               <div class="card-body">
                 <h5 class="card-title">$49.990</h5>
-                <p class="card-text">ETB Temporal Forces - 11 sobres de la edición Temporal Forces, 1 carta promocional, contadores de daño, 65 fundas para cartas.</p>
-                <button class="btn btn-primary add-to-cart" data-name="ETB Temporal Forces" data-price="49990">Agregar al carro</button>
+                <p class="card-text">ETB Temporal Forces - 11 sobres de la edición Temporal Forces, 2 cartas promocionales, contadores de daño, 65 fundas para cartas.</p>
+                <button class="btn btn-primary add-to-cart" data-name="ETB Temporal Forces" data-price="49990"style="color: #dddddd; background-color:rgb(230, 52, 52); border-color: #dddddd;">Agregar al carro</button>
               </div>
             </div>
         </div>
@@ -101,18 +102,18 @@
               <img src="img/etbpaldean.jpg" class="card-img-top" alt="ETB Paldean Fates">
               <div class="card-body">
                 <h5 class="card-title">$49.990</h5>
-                <p class="card-text">ETB Paldean Fates - 11 sobres de la edición Paldean Fates, 1 carta promocional, contadores de daño, 65 fundas para cartas.</p>
-                <button class="btn btn-primary add-to-cart" data-name="ETB Paldean Fates" data-price="49990">Agregar al carro</button>
+                <p class="card-text">ETB Paldean Fates - 11 sobres de la edición Paldean Fates, 2 cartas promocionales, contadores de daño, 65 fundas para cartas.</p>
+                <button class="btn btn-primary add-to-cart" data-name="ETB Paldean Fates" data-price="49990"style="color: #dddddd; background-color:rgb(230, 52, 52); border-color: #dddddd;">Agregar al carro</button>
               </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" style="padding-bottom: 40px;">
           <div class="card">
               <img src="img/etbparadox.jpg" class="card-img-top" alt="ETB Paradox Rift">
               <div class="card-body">
                 <h5 class="card-title">$49.990</h5>
-                <p class="card-text">ETB Paradox Rift - 11 sobres de la edición Paradox Rift, 1 carta promocional, contadores de daño, 65 fundas para cartas.</p>
-                <button class="btn btn-primary add-to-cart" data-name="ETB Paradox Rift" data-price="49990">Agregar al carro</button>
+                <p class="card-text">ETB Paradox Rift - 11 sobres de la edición Paradox Rift, 2 cartas promocionales, contadores de daño, 65 fundas para cartas.</p>
+                <button class="btn btn-primary add-to-cart" data-name="ETB Paradox Rift" data-price="49990"style="color: #dddddd; background-color:rgb(230, 52, 52); border-color: #dddddd;">Agregar al carro</button>
               </div>
             </div>
         </div>
@@ -122,8 +123,78 @@
               <div class="card-body">
                 <h5 class="card-title">$39.990</h5>
                 <p class="card-text">Caja Iono Premium Tournament Collection - 6 sobres variados, 1 carta promocional full art, 
-                  3 cartas promocionales, caja portamazo, contadores de daño, 65 fundas para cartas.</p>
-                <button class="btn btn-primary add-to-cart" data-name="Caja Iono Premium Tournament Collection" data-price="39990">Agregar al carro</button>
+                 caja portamazo, contadores de daño, 65 fundas para cartas.</p>
+                <button class="btn btn-primary add-to-cart" data-name="Caja Iono Premium Tournament Collection" data-price="39990"style="color: #dddddd; background-color:rgb(230, 52, 52); border-color: #dddddd;">Agregar al carro</button>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" >
+              <img src="img/sprigatito.jpg" class="card-img-top" alt="Peluche Pokémon inicial Sprigatito 20CM.">
+              <div class="card-body">
+                <h5 class="card-title">$19.990</h5>
+                <p class="card-text">Peluche Pokémon inicial Sprigatito 20CM.</p>
+                <button class="btn btn-primary add-to-cart" data-name="Peluche Pokémon inicial Sprigatito 20CM." data-price="19990"style="color: #dddddd; background-color:rgb(230, 52, 52); border-color: #dddddd;">Agregar al carro</button>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4" style="padding-bottom: 40px;">
+          <div class="card">
+              <img src="img/fuecoco.jpg" class="card-img-top" alt="Peluche Pokémon inicial Fuecoco 22CM.">
+              <div class="card-body">
+                <h5 class="card-title">$19.990</h5>
+                <p class="card-text">Peluche Pokémon inicial Fuecoco 22CM.</p>
+                <button class="btn btn-primary add-to-cart" data-name="Peluche Pokémon inicial Fuecoco 22CM." data-price="19990"style="color: #dddddd; background-color:rgb(230, 52, 52); border-color: #dddddd;">Agregar al carro</button>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+              <img src="img/quaxly.jpg" class="card-img-top" alt="Peluche Pokémon inicial quaxly 17CM.">
+              <div class="card-body">
+                <h5 class="card-title">$19.990</h5>
+                <p class="card-text">Peluche Pokémon inicial quaxly 17CM.</p>
+                <button class="btn btn-primary add-to-cart" data-name="Peluche Pokémon inicial quaxly 17CM." data-price="19990"style="color: #dddddd; background-color:rgb(230, 52, 52); border-color: #dddddd;">Agregar al carro</button>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+              <img src="img/pikachu.jpg" class="card-img-top" alt="Peluche Pokémon Pikachu 20CM.">
+              <div class="card-body">
+                <h5 class="card-title">$24.990</h5>
+                <p class="card-text">Peluche Pokémon Pikachu 20CM.</p>
+                <button class="btn btn-primary add-to-cart" data-name="Peluche Pokémon Pikachu 20CM." data-price="24990"style="color: #dddddd; background-color:rgb(230, 52, 52); border-color: #dddddd;">Agregar al carro</button>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+              <img src="img/snorlax.jpg" class="card-img-top" alt="Peluche Pokémon Snorlax 50CM.">
+              <div class="card-body">
+                <h5 class="card-title">$49.990</h5>
+                <p class="card-text">Peluche Pokémon Snorlax 50CM.</p>
+                <button class="btn btn-primary add-to-cart" data-name="Peluche Pokémon Snorlax 50CM." data-price="49990"style="color: #dddddd; background-color:rgb(230, 52, 52); border-color: #dddddd;">Agregar al carro</button>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+              <img src="img/dragonite.jpg" class="card-img-top" alt="Peluche Pokémon Dragonite 33CM.">
+              <div class="card-body">
+                <h5 class="card-title">$24.990</h5>
+                <p class="card-text">Peluche Pokémon Dragonite 33CM.</p>
+                <button class="btn btn-primary add-to-cart" data-name="Peluche Pokémon Dragonite 33CM." data-price="24990"style="color: #dddddd; background-color:rgb(230, 52, 52); border-color: #dddddd;">Agregar al carro</button>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+              <img src="img/rayquaza.jpg" class="card-img-top" alt="Peluche Pokémon Rayquaza 76Cm.">
+              <div class="card-body">
+                <h5 class="card-title">$29.990</h5>
+                <p class="card-text">Peluche Pokémon Rayquaza 76Cm.</p>
+                <button class="btn btn-primary add-to-cart" data-name="Peluche Pokémon Rayquaza 76Cm." data-price="29990"style="color: #dddddd; background-color:rgb(230, 52, 52); border-color: #dddddd;">Agregar al carro</button>
               </div>
             </div>
         </div>
@@ -131,89 +202,95 @@
     </div>
     <!-- FIN PRODUCTOS EN VENTA-->
 
-    <!-- INICIO CARRITO DE COMPRA-->
-    <div class="cart-container" id="cart-container">
-        <h5>Carrito de Compras</h5>
-        <ul id="cart-items" class="list-group">
-          <!-- Items added to the cart will appear here -->
-        </ul>
-        <div class="mt-3">
-          <strong>Total: $<span id="cart-total">0</span></strong>
-        </div>
-        <button class="btn btn-success mt-2">Pagar</button>
-    </div>
-    
+<!-- INICIO CARRITO DE COMPRA-->
+<div class="cart-container" id="cart-container">
+  <h5>Carrito de Compras</h5>
+  <ul id="cart-items" class="list-group">
+      <!-- Items added to the cart will appear here -->
+  </ul>
+  <div class="mt-3">
+      <strong>Total: $<span id="cart-total">0</span></strong>
+  </div>
+  <button id="pay-button" class="btn btn-success mt-2" style="color: #dddddd; background-color:rgb(230, 52, 52); border-color: #dddddd;">Pagar</button>
+</div>
 
-    <script>
-      // JavaScript to handle cart functionality
-      const cart = [];
-const cartContainer = document.getElementById('cart-container');
-const cartButton = document.getElementById('cart-button');
-const cartCount = document.getElementById('cart-count');
-const cartItems = document.getElementById('cart-items');
-const cartTotal = document.getElementById('cart-total');
+<script>
+  // JavaScript to handle cart functionality
+  const cart = [];
+  const cartContainer = document.getElementById('cart-container');
+  const cartButton = document.getElementById('cart-button');
+  const cartCount = document.getElementById('cart-count');
+  const cartItems = document.getElementById('cart-items');
+  const cartTotal = document.getElementById('cart-total');
+  const payButton = document.getElementById('pay-button');
 
-cartButton.addEventListener('click', () => {
-  cartContainer.style.display = cartContainer.style.display === 'none' ? 'block' : 'none';
-});
-
-document.querySelectorAll('.add-to-cart').forEach(button => {
-  button.addEventListener('click', () => {
-    const name = button.getAttribute('data-name');
-    const price = parseInt(button.getAttribute('data-price'));
-    addToCart(name, price);
+  cartButton.addEventListener('click', () => {
+      cartContainer.style.display = cartContainer.style.display === 'none' ? 'block' : 'none';
   });
-});
 
-function addToCart(name, price) {
-  const item = cart.find(product => product.name === name);
-  if (item) {
-    item.quantity++;
-  } else {
-    cart.push({ name, price, quantity: 1 });
-  }
-  updateCart();
-}
-
-function removeFromCart(name) {
-  const item = cart.find(product => product.name === name);
-  if (item) {
-    item.quantity--;
-    if (item.quantity <= 0) {
-      const index = cart.indexOf(item);
-      cart.splice(index, 1);
-    }
-  }
-  updateCart();
-}
-
-function updateCart() {
-  cartCount.textContent = cart.reduce((acc, item) => acc + item.quantity, 0);
-  cartItems.innerHTML = '';
-  let total = 0;
-  cart.forEach(item => {
-    const li = document.createElement('li');
-    li.classList.add('list-group-item', 'd-flex', 'justify-content-between', 'align-items-center');
-    li.innerHTML = `${item.name} - $${item.price} x ${item.quantity}
-      <div>
-        <button class="btn btn-sm btn-outline-secondary" onclick="removeFromCart('${item.name}')">-</button>
-        <button class="btn btn-sm btn-outline-secondary" onclick="addToCart('${item.name}', ${item.price})">+</button>
-      </div>`;
-    cartItems.appendChild(li);
-    total += item.price * item.quantity;
+  document.querySelectorAll('.add-to-cart').forEach(button => {
+      button.addEventListener('click', () => {
+          const name = button.getAttribute('data-name');
+          const price = parseInt(button.getAttribute('data-price'));
+          addToCart(name, price);
+      });
   });
-  cartTotal.textContent = total;
-}
 
-    </script>
-    <!-- FIN CARRITO DE COMPRA-->
+  function addToCart(name, price) {
+      const item = cart.find(product => product.name === name);
+      if (item) {
+          item.quantity++;
+      } else {
+          cart.push({ name, price, quantity: 1 });
+      }
+      updateCart();
+  }
+
+  function removeFromCart(name) {
+      const item = cart.find(product => product.name === name);
+      if (item) {
+          item.quantity--;
+          if (item.quantity <= 0) {
+              const index = cart.indexOf(item);
+              cart.splice(index, 1);
+          }
+      }
+      updateCart();
+  }
+
+  function updateCart() {
+      cartCount.textContent = cart.reduce((acc, item) => acc + item.quantity, 0);
+      cartItems.innerHTML = '';
+      let total = 0;
+      cart.forEach(item => {
+          const li = document.createElement('li');
+          li.classList.add('list-group-item', 'd-flex', 'justify-content-between', 'align-items-center');
+          li.innerHTML = `${item.name} - $${item.price} x ${item.quantity}
+          <div>
+              <button class="btn btn-sm btn-outline-secondary" onclick="removeFromCart('${item.name}')">-</button>
+              <button class="btn btn-sm btn-outline-secondary" onclick="addToCart('${item.name}', ${item.price})">+</button>
+          </div>`;
+          cartItems.appendChild(li);
+          total += item.price * item.quantity;
+      });
+      cartTotal.textContent = total;
+  }
+
+  payButton.addEventListener('click', () => {
+      window.open('javascript.js', '_blank');
+  });
+</script>
+<!-- FIN CARRITO DE COMPRA-->
+
+
      
   </body>
 </html>
-
-<footer class="copyright">
+<br>
+<!-- FOOTER-->
+<footer class="copyright" style="background-color: lightgray;">
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+  <div class="text-center p-3">
     © 2024 Copyright:
     <a class="text-body" href="https://www.pokemoncenter.com/">pokemoncenter.com</a>
   </div>
